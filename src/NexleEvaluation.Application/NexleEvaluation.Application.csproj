@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="5.0.17" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Abstractions" Version="8.0.5" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="8.0.5" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+    <PackageReference Include="MediatR" Version="12.4.1" />
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+	  <ProjectReference Include="..\NexleEvaluation.Domain\NexleEvaluation.Domain.csproj" />
+  </ItemGroup>
+
+	<ItemGroup>
+    <None Remove="Entities\" />
+    <None Remove="Features\" />
+    <None Remove="Features\Auth\" />
+    <None Remove="Features\Auth\Commands\" />
+    <None Remove="Features\Auth\Handlers\" />
+    <None Remove="Features\Auth\Queries\" />
+    <None Remove="Helpers\" />
+    <None Remove="Services\Implementations\" />
+    <None Remove="Services\Implementations\Auths\" />
+  </ItemGroup>
+	<ItemGroup>
+	  <Folder Include="Features\Auths\Queries\" />
+	  <Folder Include="Helpers\" />
+	  <Folder Include="Services\Implementations\" />
+	  <Folder Include="Services\Implementations\Auths\" />
+	</ItemGroup>
+</Project>

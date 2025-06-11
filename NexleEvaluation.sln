@@ -1,0 +1,43 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NexleEvaluation.API", "src\NexleEvaluation.API\NexleEvaluation.API.csproj", "{041605E3-84C1-4C72-BED9-61F95DC59FFC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NexleEvaluation.Application", "src\NexleEvaluation.Application\NexleEvaluation.Application.csproj", "{7424E176-D163-47E2-9D8E-2CCC6A38301D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexleEvaluation.Domain", "src\NexleEvaluation.Domain\NexleEvaluation.Domain.csproj", "{F15F80E2-BE10-44CC-A18A-DD1C17202884}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexleEvaluation.Infrastructure", "src\NexleEvaluation.Infrastructure\NexleEvaluation.Infrastructure.csproj", "{1B1542A9-60B9-4DD0-A681-4A469470E799}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{041605E3-84C1-4C72-BED9-61F95DC59FFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{041605E3-84C1-4C72-BED9-61F95DC59FFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{041605E3-84C1-4C72-BED9-61F95DC59FFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{041605E3-84C1-4C72-BED9-61F95DC59FFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7424E176-D163-47E2-9D8E-2CCC6A38301D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7424E176-D163-47E2-9D8E-2CCC6A38301D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7424E176-D163-47E2-9D8E-2CCC6A38301D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7424E176-D163-47E2-9D8E-2CCC6A38301D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F15F80E2-BE10-44CC-A18A-DD1C17202884}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F15F80E2-BE10-44CC-A18A-DD1C17202884}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F15F80E2-BE10-44CC-A18A-DD1C17202884}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F15F80E2-BE10-44CC-A18A-DD1C17202884}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B1542A9-60B9-4DD0-A681-4A469470E799}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B1542A9-60B9-4DD0-A681-4A469470E799}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B1542A9-60B9-4DD0-A681-4A469470E799}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B1542A9-60B9-4DD0-A681-4A469470E799}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDAEB97D-3C55-4E7F-8011-5F99C0DD397B}
+	EndGlobalSection
+EndGlobal

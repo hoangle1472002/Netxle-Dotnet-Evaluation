@@ -1,0 +1,30 @@
+## Build results
+bin/
+obj/
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Rider & VSCode
+.idea/
+.vscode/
+
+## Visual Studio
+.vs/
+
+## ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+## DotCover
+*.dotCover
+
+## Logs
+*.log
+
+## Others
+*.db
+*.DS_Store
+*.pdb
