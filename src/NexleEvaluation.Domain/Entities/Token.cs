@@ -6,7 +6,6 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace NexleEvaluation.Domain.Entities
 {
-    [Table("tokens")]
     public class Token: IBaseEntity
     {
         [Key]

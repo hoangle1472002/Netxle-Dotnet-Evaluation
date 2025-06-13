@@ -6,7 +6,6 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace NexleEvaluation.Domain.Entities.Identity
 {
-    [Table("users")]
     public class User: IBaseEntity
     {
         [Key]

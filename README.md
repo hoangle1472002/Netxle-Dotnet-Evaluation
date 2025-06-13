@@ -69,9 +69,12 @@ Update the following values in the `appsettings.json` file in the **API project*
 
 ```json
 "ConnectionStrings": {
-  "DefaultConnection": "YOUR_CONNECTION"
+    "DefaultConnection": "Server=streaming.nexlesoft.com;Port=xxxx;Database=entrance_test;Uid=xxxx;Pwd=xxxx;"
 }
 ```
+- Note:
+  - The database server and tables are already provisioned. You do not need to run any database migrations.
+  - Just configure the correct connection string to connect to the existing PostgreSQL
 
 ---
 
