@@ -1,8 +1,8 @@
 ﻿using NexleEvaluation.Application.Helpers;
-using NexleEvaluation.Application.Models.Dtos.User;
 using NexleEvaluation.Application.Models.Requests.Auths;
 using NexleEvaluation.Application.Models.Responses;
 using NexleEvaluation.Application.Models.Responses.Auth;
+using NexleEvaluation.Application.Models.Responses.User;
 using NexleEvaluation.Application.Services.Interfaces.Auths;
 using NexleEvaluation.Application.Utils;
 using NexleEvaluation.Domain.Entities;
@@ -52,7 +52,7 @@ namespace NexleEvaluation.Application.Services.Implementations.Auths
 
             result.Data = new SignUpResponse
             {
-                User = new UserDto
+                User = new UserDetailResponse
                 {
                     Id = user.Id,
                     FirstName = user.FirstName,
@@ -88,7 +88,7 @@ namespace NexleEvaluation.Application.Services.Implementations.Auths
 
             result.Data = new SignInResponse
             {
-                User = new UserDto
+                User = new UserDetailResponse
                 {
                     Id = user.Id,
                     FirstName = user.FirstName,
