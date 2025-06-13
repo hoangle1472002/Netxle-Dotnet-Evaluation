@@ -1,6 +1,6 @@
-﻿namespace NexleEvaluation.Application.Models.Dtos.User
+﻿namespace NexleEvaluation.Application.Models.Responses.User
 {
-    public class UserDto
+    public class UserDetailResponse
     {
         public int Id { get; set; }
         public string FirstName { get; set; }
